@@ -1,0 +1,4 @@
+# nodeAppBoilerPlate
+
+npm install
+BooOOooM
