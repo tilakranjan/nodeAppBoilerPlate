@@ -1,0 +1,43 @@
+{
+  "name": "hive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Tilak Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-redis": "^3.3.0",
+    "crypto-js": "^3.1.9-1",
+    "csurf": "^1.9.0",
+    "express": "^4.15.4",
+    "express-fileupload": "^0.2.0",
+    "express-session": "^1.15.5",
+    "express-sessions": "^1.0.6",
+    "helmet": "^3.9.0",
+    "hogan-express": "^0.5.2",
+    "joi": "^10.6.0",
+    "jsonwebtoken": "^7.4.3",
+    "md5": "^2.2.1",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.9",
+    "morgan": "^1.8.2",
+    "mustache": "^2.3.0",
+    "nodemailer": "^4.1.0",
+    "nodemon": "^1.13.0",
+    "pg": "^7.2.0",
+    "qrcode": "^0.9.0",
+    "redis": "^2.8.0",
+    "redis-scheduler": "^1.0.0",
+    "request": "^2.81.0",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "should": "^13.0.1",
+    "supertest": "^3.0.0"
+  }
+}
